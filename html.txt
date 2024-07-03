@@ -1,0 +1,8 @@
+<h1></h1> tag can be used when you should need heads<p></p> tag and <br> tag are used when you need to space. 
+
+Especially <p></p> tag can use when you distribute paragraphs.<ol></ol> and <ul></ul> can be used when you express the list and distribute it. 
+
+
+And also <li></li> tag can be used when you need list.<strong></strong> can use when you need to highlight the words. 
+
+And <u></u> tag can be used when you should underline the words. 
