@@ -1,0 +1,67 @@
+body { 
+    background: rgb(0,255,255);
+    color: white; 
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    padding: 0;
+}
+
+h1 { 
+    color: white; 
+}
+
+section { 
+    display: flex; 
+}
+
+ul { 
+    padding: 0;
+    list-style: none; 
+}
+
+li {
+    display: inline-block;
+    margin: 1px; 
+    background: gray; 
+    border-radius: 3px;
+    padding: 2px; 
+    margin-left: 20px; 
+}
+
+li:hover { 
+    background-color: red;
+}
+
+.feature-box div { 
+    width: 100%; 
+    margin: 2px; 
+}
+
+.feature-box.sales div  { 
+    background: gray; 
+    width: 100%; 
+    color: rgb(0,0,0);
+    margin: 1px;
+    display: inline; 
+    flex-direction: inline-block;
+    padding: 0; 
+    list-style-type: none; 
+}
+
+.feature-box.closeouts div { 
+    color: black;;
+    background-color: red;
+}
+
+li:first-child {
+    background: red;
+    margin-left: 0; 
+ }
+
+a { 
+    text-decoration: none;
+}
+
+a:hover { 
+    text-decoration: underline;
+}
