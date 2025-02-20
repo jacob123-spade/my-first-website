@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Tag</title>
+    <style>
+        table { 
+            border: 1px solid black;
+            border-collapse: collapse;
+
+        }
+        th,td{ 
+            border: 1px solid black;
+            padding: 12px;
+            
+        }
+
+        .col1 { 
+            width: 80px;
+            background-color: aqua;
+        }
+        .col2 { 
+            background-color: yellow;
+        }
+        .col3 { 
+            background-color: aquamarine;
+        }
+        .col4 { 
+            background-color: aliceblue ;
+        }
+        .col5 { 
+            background-color: azure;
+        }
+        .col6 { 
+            background-color: antiquewhite; 
+        }
+    </style>
+</head>
+<body>
+    <h1>Table Basic</h1>
+    <table>
+        profile table
+        <tr>
+            <th>Name</th>
+            <th>Hobby</th>
+            <th>Characteristic</th>
+        </tr>
+        <tr>
+            <td>Hamin</td>
+            <td>Coding</td>
+            <td>Handsome</td>
+        </tr>
+        <tr>
+            <td>Jack</td>
+            <td>Boxing</td>
+            <td>Tall</td>
+        </tr>
+    </table>
+    <hr>
+    <h1>Table Group Tag</h1>
+    <table>
+        <caption>Class Score</caption>
+        <colgroup>
+            <col class="col1">
+            <col class="col2">
+            <col class="col3">
+            <col class="col4">
+            <col class="col5">
+            <col class="col6">
+        </colgroup>
+        <thead>
+            <tr>
+                <th>Class</th>
+                <th>Name</th>
+                <th>Korean</th>
+                <th>English</th>
+                <th>Math</th>
+                <th>Coding</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="3">Class 1</td>
+                <td>Hamin</td>
+                <td>100</td>
+                <td>90</td>
+                <td>95</td>
+                <td>100</td>
+            </tr>
+            <tr>
+                <td>Jack</td>
+                <td>80</td>
+                <td>85</td>
+                <td>95</td>
+                <td>80</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Average</td>
+                <td>90</td>
+                <td>85.5</td>
+                <td>95</td>
+                <td>90</td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
